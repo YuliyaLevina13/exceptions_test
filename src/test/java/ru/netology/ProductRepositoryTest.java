@@ -9,12 +9,12 @@ public class ProductRepositoryTest {
 
     ShopRepository repo = new ShopRepository();
 
-    Product product1 = new Product(11, "Product1", 500);
-    Product product2 = new Product(22, "Product 2", 80_000);
-    Product product3 = new Product(33, "Product 3", 40_000);
-    Product product4 = new Product(44, "Product 4", 20_000);
+    Product product1 = new Product(11, "Product1", 350);
+    Product product2 = new Product(22, "Product 2", 8000);
+    Product product3 = new Product(33, "Product 3", 40_500);
+    Product product4 = new Product(44, "Product 4", 10_000);
     Product product5 = new Product(55, "Product 5", 100);
-    Product product6 = new Product(66, "Product 6", 9500);
+    Product product6 = new Product(66, "Product 6", 1500);
 
     @BeforeEach
     public void setup() {
